@@ -1,0 +1,233 @@
+.parent-container{
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-light);
+}
+
+.thumbnail{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   align-items: center;
+   text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 4px;
+}
+
+.thumbnail-img{
+    grid-area: 1 / 1 / -1 / -1;
+    filter: blur(2px);
+    
+}
+
+.event-name-title{
+    grid-area: 1 / 1 / -1 / -1;
+    z-index: 998;
+    font-size: var(--kFS-title);
+    font-weight: 700;
+    /* -webkit-text-stroke: 0.5px white; */
+    color: var(--kblue-300);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 16px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr minmax(25vw , 400px) ;
+    grid-template-rows: 32px 1fr;
+    gap: 16px;
+    column-gap: 64px;
+    padding: var(--kPadding-lg);
+    padding-top: 0;
+}
+
+.right-section{
+    grid-area: 2 / 2 / -1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.left-section{
+    grid-area: 2 / 1 / -1 / 2;
+    background-color: var(--text-color);
+    padding: var(--kPadding-extra001) var(--kPadding-mid-lg);
+    border-radius: var(--kBorder-radius-reg);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.imgs-group{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+p{
+    font-family: var(--kFont-Jos);
+}
+
+.company-card,
+.ticket-card,
+.tour-guide-card{
+    background-color: var(--text-color);
+    padding: var(--kPadding-reg);
+    border-radius: var(--kBorder-radius-reg);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.company-img,
+.guide-img{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-radius: var(--kBorder-radius-min);
+}
+
+.company-name,
+.guide-name{
+    font-family: var(--kFont-Bebas);
+    font-size: var(--kFS-lg);
+}
+
+.company-location,
+.company-website,
+.trusted-patch,
+.event-location,
+.ticket-card>div,
+.guide-languages,
+.experience{
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--kFont-Jos);
+}
+
+.event-type{
+    background-color: var(--kdark-yellow);
+    padding: 2px var(--kPadding-reg);
+    width: fit-content;
+    border-radius: var(--kBorder-radius-reg);
+    color: white;
+    font-family: var(--kFont-Jos);
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.event-name,
+.tour-info{
+   font-family: var(--kFont-Bebas);
+    color: var(--grayed-out-text);
+    font-size: var(--kFS-lg);
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--kFont-Jos);
+}
+
+.rating>div>i{
+    color: burlywood;
+}
+
+.ticket-card>div{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.ticket-card>div:last-child{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.ticket-card>div:first-child{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.available{
+    background-color: rgba(24, 136, 24, 0.712);
+    color: white;
+    padding: 2px 16px ;
+    border-radius: 16px;
+}
+
+.price{
+    background-color: rgba(24, 136, 24, 0.712);
+    color: white;
+    padding: 0 16px ;
+    border-radius: 16px;
+}
+
+.discount{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0 16px ;
+    border-radius: 16px;
+}
+
+.save{
+    font-size: var(--kFS-lg);
+    font-weight: 500;
+}
+
+.time{
+    color: var(--kblue-300);
+    font-size: 24px;
+    padding: 2px 4px;
+    border-radius: 16px;
+    margin-left: 8px;
+}
+
+#booking{
+    background-color: var(--kblue-300);
+    color: white;
+    padding: 8px 16px;
+    transition: all 0.3s ease-in-out;
+    flex: 0.8;
+}
+
+#booking:hover{
+    background-color: var(--kblue-200);
+}

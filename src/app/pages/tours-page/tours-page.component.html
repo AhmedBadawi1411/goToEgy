@@ -1,0 +1,41 @@
+<app-header></app-header>
+<main>
+    <div class="banner">
+        <h1>Take a look at our Tours</h1>
+        <h3>Events are set up by our trusted partners throughout the country and are celebrations, festivals, or
+            simply
+            for entertainment.</h3>
+        <h6>You can search the events using the filters bellow.</h6>
+    </div>
+    <div class="tours-stats">
+        <div class="tag">
+            <h2>221</h2>
+            <p>total tours</p>
+        </div>
+        <div class="tag">
+            <h2>221,212</h2>
+            <p>Satisfied toursists</p>
+        </div>
+        <div class="tag">
+            <h2>1,213</h2>
+            <p>Talented guides</p>
+        </div>
+        <div class="tag">
+            <h2>42</h2>
+            <p>Partners</p>
+        </div>
+    </div>
+    <div class="tour-cards-section">
+        <div class="pagination-slider">
+            <app-paginated-list [isOneColumn]="true" [items]="tours" [pageSize]="3"
+                [itemTemplate]="tourCardTemplate"></app-paginated-list>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>
+
+<ng-template #tourCardTemplate let-item>
+    <app-tour-card [eventId]="item.eventId" [eventTitle]="item.title" [eventDescription]="item.description"
+        [eventImg1]="item.img1" [eventImg2]="item.img2 " [eventImg2]="item.img2" [eventImg3]="item.img3"
+        [eventLocation]="item.location" [website]="item.website" [providerImg]="item.providerImg"></app-tour-card>
+</ng-template>

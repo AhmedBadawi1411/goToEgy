@@ -1,0 +1,32 @@
+<div class="filter-bar">
+    <div id="filter-Btns-container">
+
+        <div class="filter-parent">
+            <button type="button" id="dropdownM" class="dropdown-m" (click)="toggleVisiablity()"><i
+                    class="fa-solid fa-filter"></i><span>Filter</span></button>
+        </div>
+
+        <button type="button" id="recent"><span>Recent</span></button>
+        <button type="button" id="name"><span>By Name</span></button>
+        <button type="button" id="location"><span>By Location</span></button>
+        <button type="button" id="provider"><span>By Provider</span></button>
+        <div class="search-container">
+            <input type="text" name="search" id="search" placeholder="search keywords">
+            <button type="button" name="searchBtn" id="searchBtn" class="searchBtn"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <div id="mapDisplayMode">
+        <button type="button" id="locationsBtnList" (click)="toggleLocationsList()"
+            [disabled]="isMapShownGetter()">Locations</button>
+        <button type="button" id="mapButton" class="active" (click)="toggleMap()"><span>Events
+                Map</span></button>
+    </div>
+
+</div>
+<div class="filterBtns-container">
+    <button type="button" id="recent" class="filterBtn"><span>Recent</span></button>
+    <button type="button" id="name" class="filterBtn"><span>By Name</span></button>
+    <button type="button" id="location" class="filterBtn"><span>By Location</span></button>
+    <button type="button" id="provider" class="filterBtn"><span>By Provider</span></button>
+</div>

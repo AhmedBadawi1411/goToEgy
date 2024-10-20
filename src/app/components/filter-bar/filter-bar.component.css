@@ -1,0 +1,126 @@
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: calc(var(--kPadding-reg) * 1.5);
+    background-color: var(--kdark-yellow);
+    border-radius: var(--kBorder-radius-reg);
+    background: 
+    linear-gradient(45deg, rgba(1, 73, 117, 0.8), rgba(221, 168, 111, 1)),
+    url('/assets/imgs/bkg_two.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.filter-bar>#filter-Btns-container{
+    display: flex;
+    gap: calc(var(--kPadding-reg) * 1.5);
+    flex: 0.9;
+}
+
+.search-container{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 45px;
+    flex: 1;
+    width: 100%;
+}
+
+.searchBtn{
+    min-width: 0px;
+    padding: 0;
+    grid-area: 1 / -1 / -1 / -2 ;
+    border-radius: var(--kBorder-radius-reg);
+    background-color: white;
+    width: 45px;
+    color: var(--kdark-yellow);
+}
+
+#search{
+    grid-area: 1 / 1 / -1 / -1 ;
+    padding-right: 50px;
+}
+
+#search:focus{
+    padding: var(--kPadding-mid);
+    border: solid 1px var(--kblue);
+    background-color: aliceblue;
+    border-radius: var(--kBorder-radius-reg);
+    outline: none;
+}
+
+.dropdown-m{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 6px;
+}
+
+.filter-parent{
+    display: none;
+}
+
+#mapDisplayMode{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap:calc(var(--kPadding-reg)* 1.5);
+}
+
+#locationsBtnList{
+    display: none;
+}
+
+.filterBtns-container.visable{
+    height: 100%;
+    display: none;
+    gap: calc(var(--kPadding-reg) * 1.5);
+    top: -8px;
+    left: 21px;
+}
+
+.filterBtns-container>button{
+    border-radius: 0;
+    padding: 12px 0;
+    border-bottom: solid 2px var(--kdark-yellow);
+    background-color: var(--primary-light);
+    
+}
+
+.filterBtns-container>button:first-child{
+    border-radius: 0;
+    border-top-left-radius: var(--kBorder-radius-min);
+    border-top-right-radius: var(--kBorder-radius-min);
+}
+
+.filterBtns-container>button:last-child{
+    border-radius: 0;
+    border-bottom-left-radius: var(--kBorder-radius-min);
+    border-bottom-right-radius: var(--kBorder-radius-min);
+    border: none;
+}
+
+.filterBtns-container>button:hover{
+    flex: 1;
+    background-color: var(--kblue-300);
+  }
+  
+  .filterBtns-container>button.active{
+    flex: 1;
+    background-color: var(--kblue-300);
+  }
+
+  .filterBtn{
+    display: none;
+    opacity: 0;
+    visibility: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .filterBtn.visable{
+    display: inline;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+   
+  }

@@ -1,0 +1,31 @@
+<nav class="navbar">
+    <div class="logo">
+        <a href="/home"><img src="../../assets/Logo.svg" alt="Logo"></a>
+    </div>
+    <ul class="nav-links">
+        <span>
+            <li><a href="events" class="md-font">Events</a></li>
+            <li><a href="tours" class="md-font">Tours</a></li>
+            <li><a href="aboutus" class="md-font">About</a></li>
+            <li><a href="contactus" class="md-font">Contact</a></li>
+        </span>
+        <li><a href="#"><img src="../../assets/" alt=""></a></li>
+    </ul>
+    <button type="button" [routerLink]="['/signin']" *ngIf="!loggedIn"
+        style="height: 45px; max-width: 120px; margin-left: 16px;">Sign In</button>
+    <button type="button" (click)="logOut()" class="logout" [routerLink]="['/']" *ngIf="loggedIn"
+        style="height: 45px; max-width: 120px; margin-left: 16px;">Log out</button>
+    <div class="hamburger" (click)="toggleDropdown()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="taps-container">
+        <a href="events">Events</a>
+        <a href="tours">Tours</a>
+        <a href="aboutus">About</a>
+        <a href="contactus">Contact</a>
+        <a href="signin" *ngIf="!loggedIn">Sign In</a>
+        <a href="/" (click)="logOut()" *ngIf="loggedIn">Log out</a>
+    </div>
+</nav>

@@ -1,0 +1,165 @@
+/* الأساسيات */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    color: var(--kdark-yellow);
+    top: 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    background:
+      linear-gradient(90deg, rgba(221, 168, 111, 0.8), rgba(221, 168, 111, 1)),
+      url('/assets/imgs/pattern_one.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 80px;
+  }
+  
+  .logo{
+    height: 100%;
+    object-fit: cover;
+    flex: 1 1;
+  }
+
+  .logo img {
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: -8px;
+  }
+  
+  .nav-links,
+  .nav span{
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 350px;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: var(--kblue-300);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: var(--kFont-Bebas);
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  /* استايل أيقونة الـ hamburger */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: var(--kblue-300);
+    margin: 4px;
+    transition: 0.3s;
+  }
+  
+  .navbar>button{
+    position: relative;
+    top: -8px;
+  }
+
+  .logout{
+    min-width: 140px;
+  }
+  .logout:hover{
+    background-color: red;
+  }
+
+  .taps-container.active{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: absolute;
+    top: 70px;
+    right: 16px;
+    z-index: 999;
+    background-color: var(--kdark-yellow);
+    min-width: 150px;
+    border-radius: var(--kBorder-radius-min);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+
+  .taps-container{
+    display: none;
+    flex-direction: column;
+    gap: 2px;
+    position: absolute;
+    top: 70px;
+    right: 16px;
+    z-index: 999;
+    background-color: var(--kdark-yellow);
+    min-width: 150px;
+    border-radius: var(--kBorder-radius-min);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+
+  .taps-container>a{
+    text-decoration: none;
+    padding: 4px 16px;
+    background-color: var(--primary-light);
+    color: var(--kblue-300);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .taps-container>a:hover{
+    background-color: var(--kblue-300);
+    color: white;
+  }
+  /* التعديل لشاشات الموبايل */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: rgba(221, 168, 111, 1);
+      width: 100%;
+      text-align: center;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 16px;
+    }
+    .navbar>button{
+      position: relative;
+      top: 0px;
+      right: 32px;
+    }
+    .logo img {
+
+      top: 0px;
+    }
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+
+    .navbar>button{
+      display: none;
+    }
+  }
+  

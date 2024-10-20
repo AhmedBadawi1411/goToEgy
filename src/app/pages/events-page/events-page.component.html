@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="parent-container">
+    <div class="events-container" style="max-width: 1800px;">
+        <div class="head">
+            <div class="events-title">
+                <h1>Take a look at our events</h1>
+            </div>
+            <div class="events-subTitle">
+                <p>Events are set up by our trusted partners throughout the country and are
+                    celebrations, festivals, or
+                    simply for entertainment.</p>
+            </div>
+            <div class="events-hint">
+                <p>You can search the events using the filters bellow.</p>
+            </div>
+        </div>
+
+        <app-filter-bar></app-filter-bar>
+
+        <div class="maps-container" *ngIf="displayMap">
+            <div class="map" id="map"></div>
+            <div class="locations-list" *ngIf="displayLocation">
+                <button type="button" class="locationBtn">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> CAIRO </span>
+                </button>
+                <button type="button" class="locationBtn">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> CAIRO </span>
+                </button>
+                <button type="button" class="locationBtn">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> CAIRO </span>
+                </button>
+            </div>
+        </div>
+        <div class="event-cards-container" *ngIf="!displayMap">
+            <app-paginated-list [items]="events" [itemTemplate]="eventCardTemplate"></app-paginated-list>
+        </div>
+    </div>
+</div>
+
+<ng-template #eventCardTemplate let-item>
+    <app-event-card [eventTitle]="item.title" [eventDescription]="item.description" [eventLocation]="item.location"
+        [eventImg]="item.img1" [eventId]="item.eventId"></app-event-card>
+</ng-template>
+
+<app-footer></app-footer>

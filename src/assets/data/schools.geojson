@@ -1,0 +1,2543 @@
+{
+  "type": "FeatureCollection",
+  "name": "schools",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ضي الهلال الثانوية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.720566100439317, 32.773488200130558]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الجيل الجديد الثانوية 2 للبنات",
+        "NAME_EN": "Girl Secondary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.727109599698242, 32.75931819993734]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الجيل الجديد",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.718727399991561, 32.762544000238258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شهداء اسبان",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.717860100516418, 32.785302399904992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة محمد توفيق الغنيمي",
+        "NAME_EN": "Mohammed Tawfiq Al-Ghunaimi School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.205399200439251, 32.883520200082955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "روضة اطفال - النوفليين",
+        "NAME_EN": "Kindergarten",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.212739900007902, 32.888448099923124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة النوفليين",
+        "NAME_EN": "Nufieleen School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.21244090046971, 32.888757700393889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة بئر شعيب",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.671202700060032, 32.469759099653452]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة دحمان بنات",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.532070099875583, 32.770299600361284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة قاليل الاعدادية الثانوية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.524733600346092, 32.754533600406084]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عبدالمنعم رياض",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.487482199835986, 32.733888200404486]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عبدالمنعم رياض الإعدادية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.49155700024671, 32.733461299581158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة السلام للتعليم الاساسي صبراتة",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.440418200414793, 32.682544100016791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة العلالقة الثانوية بنين",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.46758240052943, 32.748359899712014]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عمر بن الخطاب للتعليم الاساسي",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.457170699520663, 32.732117099989807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الصديق كشون",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.251615500502652, 32.879633800239141]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الثورة العربية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.250668500121328, 32.874187999658496]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة رسل الحضارة",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.250103399845289, 32.874704999610437]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة طلائع التقدم",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.195067900153433, 32.878683100274543]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "اكاديمية الاطفال",
+        "NAME_EN": "kids academy",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.194365300137697, 32.8856129999457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "العنقودي للتعليم الابتدائي والاساسي. بنات",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.181657799542322, 32.876958600369058]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة جمال عبدالناصر للتعليم الثانوي",
+        "NAME_EN": "High School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.18055890023302, 32.880064799678387]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة طرابلس للبنات",
+        "NAME_EN": "Tripoli for girls School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.184323200194644, 32.885639999690682]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الغوط",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.403730800070587, 32.780168799868811]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة التقدم العجيلات",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.36721689953105, 32.720637400100152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "هايتي",
+        "NAME_EN": "HAFSAH School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.185095799955636, 32.890666100298823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الضياء التعليمية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.222355099833612, 32.89404930024817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الجمهورية للتعليم الاساسي",
+        "NAME_EN": "School Elementary",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.175732100325897, 32.879738700191353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة طرابلس للتعليم المتوسط",
+        "NAME_EN": "Tripoli School -Medium School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.164710399613666, 32.884246900193411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الهادي عرفة",
+        "NAME_EN": "AL HADI School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.164674899690461, 32.883791999830599]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ام سلمى للبنات",
+        "NAME_EN": "Om salma for Girl",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.170013399715303, 32.884952400128498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شارع الصريم - عبدالله الحجاجي",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.168460300042117, 32.883333699603718]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "الزهراء",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.178021100219516, 32.853633000235028]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية ليبيا الحرة",
+        "NAME_EN": "High School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.171433299607681, 32.864986199847664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة رواسي المعرفة",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.264087500131549, 32.504945700122015]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "روضة ابطال الحجارة",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.004051999760842, 32.822708399830276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الغد المضيئ",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.006331900171388, 32.826184400199182]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المتفوق",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.008137000487327, 32.80732140028389]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة أشبال الغد",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.991467899602702, 32.824776400212023]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "الكلمة للتعليم التفاعلي",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.159966099458948, 32.861871200263508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عمر بن يحيى",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.71648179953543, 32.750734100092416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة اﻹستقامة للتعليم اﻷساسي بنين",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.711520099496628, 32.74867530040521]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عبدالقادر الجزائري",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.650854500497784, 32.746120200260677]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الطليعة",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.722203400172727, 32.764712900243509]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المعهد المتوسط الزاوية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.729619900190098, 32.77184830031166]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية ناصر",
+        "NAME_EN": "Secondary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.649362100353263, 32.424856800417196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المركز النوعي للتدريب على الصناعات النفطية",
+        "NAME_EN": "Specific Training Center",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.688243300346217, 32.787879600023615]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة البيضاء",
+        "NAME_EN": "Al Byada School",
+        "Morakaba_I": 26,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.723838899768008, 30.481847200123536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شهداء البريقة",
+        "NAME_EN": "Brega School",
+        "Morakaba_I": 26,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.568785500128591, 30.408741000088799]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الصفوة البريقة",
+        "NAME_EN": null,
+        "Morakaba_I": 26,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.570282099887844, 30.409985500249224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "طارق بن زياد",
+        "NAME_EN": "School",
+        "Morakaba_I": 20,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.293666499525933, 24.201030300370505]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "معهد المهن الشاملة الكفرة",
+        "NAME_EN": null,
+        "Morakaba_I": 20,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.293181399646102, 24.191606200265205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة خالد بن الوليد للبنين",
+        "NAME_EN": "Khalid bin Walid School",
+        "Morakaba_I": 23,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.292052099544517, 29.132585899758066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "جيل ليبيا",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.778564099483368, 29.06754320034862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ابوبكر فضيل الثانوية بنين",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.783470900001403, 29.064153000285454]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المستقبل للتعليم الاساسي",
+        "NAME_EN": "Future Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.429995599840529, 27.033727000359711]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المهديةالابتدائية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.434317399848837, 27.041391199555605]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "العهد الدولية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.42272169951308, 27.052741199820616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المركزية الابتدائية هون",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.940246200076151, 29.125497299957029]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الإعدادية بنات",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.943345499881124, 29.120934000251136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مركز تدريب حقل السرير",
+        "NAME_EN": null,
+        "Morakaba_I": 21,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.49920880023755, 27.650672700372489]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الكاسح",
+        "NAME_EN": "Al kaseh School",
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.21445159959131, 30.745270399570018]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية جمال عبدالناصر بنين",
+        "NAME_EN": "High School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.656558900396611, 31.0539971001784]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الشهيد عمر الشيخي",
+        "NAME_EN": null,
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.234348199915377, 31.097934899799057]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ٧ أكتوبر",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.314805699479681, 31.074180600277622]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ابوسعدة",
+        "NAME_EN": "Abu Saada School",
+        "Morakaba_I": 27,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.520590299567854, 30.991976100248845]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "روضة حلم الأطفال",
+        "NAME_EN": "Kids Dream",
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.235797099530174, 30.773492299624095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الضياء للتعليم الأساسي",
+        "NAME_EN": null,
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.231496800487719, 30.754851400241833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "معهد البيان اجدابيا",
+        "NAME_EN": null,
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.226876300244783, 30.764776700192648]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "نور العلم",
+        "NAME_EN": null,
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.223130699697798, 30.737540800378337]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "نور الهدى",
+        "NAME_EN": null,
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.263274400520366, 30.774362499970845]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الهداء",
+        "NAME_EN": "School",
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.21613399965538, 30.75890060027919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الاتحاد",
+        "NAME_EN": "School",
+        "Morakaba_I": 19,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.209555100294846, 30.755475000387744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ابوزاهية",
+        "NAME_EN": "Abu Zahia School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.725078299817735, 31.20804509994975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الفارابي",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.75645919999668, 31.192975700325491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عمار بن ياسر",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.235447199706538, 31.134089000270585]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الشهيد الابتدائية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.596426300147016, 31.204966800427879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة سرت المركزية",
+        "NAME_EN": "Sirte Central School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.579010599986706, 31.207300200300484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الفرقان للتحفيط القران",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.580691799848239, 31.195840500448067]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مركز الجانب البريطاني لتعليم اللغات",
+        "NAME_EN": "British side center for languages education",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.583086100357612, 31.198096999601699]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "معهد دار الجودة",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.561323800443066, 31.190999900206521]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة كركورة",
+        "NAME_EN": null,
+        "Morakaba_I": 18,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.029856000524365, 31.425947700072744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الحسين الثانوية المقرون",
+        "NAME_EN": null,
+        "Morakaba_I": 18,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.146512700027902, 31.441252800184174]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المدرسة الثانوية",
+        "NAME_EN": null,
+        "Morakaba_I": 18,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.146096200471089, 31.44129430035273]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة عبد الرحمان الغافقي",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.250246300300404, 31.672271299972543]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المدرسة الداخلية سابقا.",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.251231400148452, 31.669927399795849]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "معهد عمر المختار العالي للمهن الشاملة.",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.250175499952551, 31.669799799603332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المدرسة الثانوية بنات",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.258759500300709, 31.665244799697469]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شعاع الحرية الابتدائية",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.247964200379762, 31.66681509997348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ابن سينا الثانوية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.015715699632613, 27.505519599997701]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شهداء قارة محروقة",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.014612600349574, 27.505664500045825]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الخوارزمي",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.970957099785496, 27.491033099848629]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية تخصصية",
+        "NAME_EN": "High School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.731284199735667, 26.126445200072133]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الإعدادية بنين",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.937663800480918, 29.120722600043521]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الثانوية بنات",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.944630800368893, 29.121180900259759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية عبدالمطلب الجماعي",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.943324100063172, 29.133453800088507]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "11",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.557887799753932, 26.099461699998407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الإمام",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.135343499519575, 29.159127799589914]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "منارة لتحفيظ القرآن الكريم",
+        "NAME_EN": "Holy Quran School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.158355000460841, 29.175859299936334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المقرون",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.145598899814487, 29.144571900257652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "كلية الآداب",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.948446499894253, 29.13171780028507]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية زويلة",
+        "NAME_EN": "Secondary Zewila",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.129571600132758, 26.161392599930966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة أبو ذر الغفاري",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.273545300199675, 26.438522300027024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الشهيد ناصر الزويي",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.9630528999124, 29.133867600339904]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة القلة الابتدائية",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.632027900433677, 27.574106800292228]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة فنقل الإعدادية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.271136700468952, 25.921925099694974]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "خولة بنت الازهر",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.421369999525906, 27.051611299621836]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية البنات",
+        "NAME_EN": "High School -Girls",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.921486099564911, 25.917827899949955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسه الزيغن الثانوية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.906273000031401, 27.367992200330068]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسه ابتدائي",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.906269800160556, 27.368567699616747]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شهداء الشب",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.906310100417137, 27.369065700159616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرس علي البصير",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.275085400324402, 27.546319699717746]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "فاطمة الزهراء",
+        "NAME_EN": "Fatma alzhra",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.423576000047309, 27.04042090013116]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المنشية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.424335099620599, 27.036626099723144]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "روضة الإشراق",
+        "NAME_EN": "Kindergarten",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.415258800139167, 27.043172200178692]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "21018",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.415651200254114, 27.043108500107202]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة أبو بكر الصديق",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.411127500224374, 27.036105799643899]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة فنقل التانوية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.271229599926633, 25.920703100385758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ستلونه",
+        "NAME_EN": null,
+        "Morakaba_I": 9,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.911911000123411, 32.841652000352198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة وجدة",
+        "NAME_EN": null,
+        "Morakaba_I": 10,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.789354800205903, 32.761349699688644]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "School Seventh of April",
+        "NAME_EN": null,
+        "Morakaba_I": 10,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.791001399612068, 32.75853649959047]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المجاهد اقطيط موسى",
+        "NAME_EN": null,
+        "Morakaba_I": 9,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.947344400445107, 32.779711100025857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية_الامام مالك بن أنس الدينية",
+        "NAME_EN": "Imam Malik Religious secondary",
+        "Morakaba_I": 10,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.761148100359947, 32.763287499688197]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة العهد الجديد",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.155014600063684, 29.169004999585869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ودان الثانوية بنين",
+        "NAME_EN": "High School Boys",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.141851399533589, 29.157104200331094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "الفضيل أبو عمر",
+        "NAME_EN": "alfdel abo omar",
+        "Morakaba_I": 23,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.298622200140525, 29.179939000223019]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "التعليم قسم السباخ",
+        "NAME_EN": null,
+        "Morakaba_I": 23,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.298119599618694, 29.17977020023465]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الشهيد عطية الكاسح",
+        "NAME_EN": null,
+        "Morakaba_I": 24,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.656754200474044, 29.302442300157612]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة رويفع الأنصاري",
+        "NAME_EN": null,
+        "Morakaba_I": 24,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.643066000164403, 29.306300000352536]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة شهداء الكوز",
+        "NAME_EN": null,
+        "Morakaba_I": 24,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.649336999509845, 29.302675399611715]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة علي الزوام",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.564009200105033, 28.547050800293633]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة زلة للتعليم الأساسي",
+        "NAME_EN": "Zalla Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.554376999741148, 28.545129399634977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة زلة الثانوية",
+        "NAME_EN": "Zalla High School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.544610900112215, 28.549296500346479]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ابن  103 ا",
+        "NAME_EN": null,
+        "Morakaba_I": 23,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.776411999717244, 29.055045499739137]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة ام المؤمنين",
+        "NAME_EN": "Um mo’meen School",
+        "Morakaba_I": 23,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.290908099897852, 29.134389600094998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة بن راشد",
+        "NAME_EN": "school",
+        "Morakaba_I": 22,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.508394999675904, 29.01262240018491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "معهد رؤية المستقبل النفطي",
+        "NAME_EN": "Oil Institute",
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.124869600260627, 32.135830099616939]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مشروع بنينا",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.116968100199969, 32.137208499831942]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة النخبة الاولى",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.097819999867696, 32.073140000048831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مركز رؤية التعليمي",
+        "NAME_EN": "Roaya center",
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.134565900353699, 32.086343199655055]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "روضة للتعليم الخاص",
+        "NAME_EN": "Kindergarten",
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.092050999821829, 32.103859000089464]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "اللغات المميزة",
+        "NAME_EN": "SL school and language center",
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.119299400200415, 32.083231899581172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة 10 مارس",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.130592400251054, 32.114030899744549]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "شهداء بوهديمة",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.110474099524549, 32.075401599761548]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "وزارة التعليم العالي الخاص",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.085299900520223, 32.093180499768174]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة القرآنية",
+        "NAME_EN": "Holy Quran School",
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.249704599608211, 31.66950600021184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة فضيل محجوب الفاخري",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.647926700168139, 31.445705799882045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مفوز الوتر",
+        "NAME_EN": null,
+        "Morakaba_I": 3,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.917079399546861, 31.887605500374491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة سمرقند للتعليم الاساسي والمتوسط",
+        "NAME_EN": "Elementary ,Medium School",
+        "Morakaba_I": 3,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.478771299765498, 31.906161599703768]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية كمبوت",
+        "NAME_EN": "High School",
+        "Morakaba_I": 3,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.481889699473708, 31.903193399823266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الشهيد محمد عبدالعزيز",
+        "NAME_EN": "School",
+        "Morakaba_I": 8,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.024244200422558, 32.724955300042723]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة اللواء عبدالفتاح يونس.",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.20501210008095, 31.792863700236342]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة النواقية- اعدادي-ثانوي",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.167583099647437, 31.925062199898392]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة خالد بن الوليد الإعدادية",
+        "NAME_EN": "Medium School",
+        "Morakaba_I": 1,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.090623499764334, 31.757745800091396]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة وادي المنستير",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.999931399717568, 31.927427700396482]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة رأس عزاز",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.982619400478381, 31.933991299666044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة بوترابه",
+        "NAME_EN": null,
+        "Morakaba_I": 14,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.747939200079095, 32.607714900215747]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المدرسة الهندية",
+        "NAME_EN": "Indian School",
+        "Morakaba_I": 12,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.843125599825736, 32.474825199754186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الكرامة الابتدائية",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.066072700384158, 32.116294299808104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة السيدة سمية للبنات",
+        "NAME_EN": "Alssaida Soumaia Girl's Highschool",
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.080284199828785, 32.083024599591234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة السد العالي الثانوية بنات",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.046405300461561, 32.048028299916346]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسه السد العالي",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.045436899780746, 32.04848299995016]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مركز المستقبل",
+        "NAME_EN": null,
+        "Morakaba_I": 16,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.080980500058953, 32.106253899561118]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة طبرق",
+        "NAME_EN": "Tobrok school",
+        "Morakaba_I": 3,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.951599500069118, 32.092910599987931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ابن خلدون",
+        "NAME_EN": "Ibn khaldoon",
+        "Morakaba_I": 3,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.996036699896646, 32.079319399623017]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "زاوية القصرين",
+        "NAME_EN": null,
+        "Morakaba_I": 11,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.40056589991018, 32.663944399753774]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "اسدوس /ميراد مسعود",
+        "NAME_EN": null,
+        "Morakaba_I": 11,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.295034600319731, 32.7382510003821]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "الشهيد حسين الكاديكي للتعليم الأساس",
+        "NAME_EN": "El Shaheed Hussein Alcadekke basic education",
+        "Morakaba_I": 18,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.016431600102905, 31.691450000133859]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المرحوم عبدالباسط الحمروني",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.251034900214885, 32.676882000285147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة العصماء",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.241071199529262, 32.850320200336007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة أوائل التوفيق",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.246186799483754, 32.834332100082761]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة المجد الثانوية",
+        "NAME_EN": "Almajed secondary school",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.247280899645627, 32.856775499624788]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الوطن العربي",
+        "NAME_EN": "Alwaten alarabi school",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.247212800305439, 32.856131899636559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الاستقامة للتعليم الاساسي",
+        "NAME_EN": "Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.673294699887292, 32.718064400285208]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة غزة للتعليم الأساسي",
+        "NAME_EN": "Gazza Elementary School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.5232108001307, 32.687319000257034]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة صرمان الجنوبية للتعليم الثانوي",
+        "NAME_EN": "Southern Surman High School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.541176500430597, 32.721764799671519]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ثانوية خليج التحدي",
+        "NAME_EN": "High Schoo",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.377217499511552, 32.75846080010222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة هتية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.405449500295283, 32.771689100001083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الأمل",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.40148590040199, 32.799336400318687]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة غوط الديس الشمالية",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.35878820042621, 32.748778300204073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الجغبوب الاعدادية",
+        "NAME_EN": "Medium School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.514795300463611, 29.739278099759009]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مركز تدريب",
+        "NAME_EN": "Training center",
+        "Morakaba_I": 21,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.499400499982638, 27.650782699952778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "ورشة التدريب علي اللحام",
+        "NAME_EN": null,
+        "Morakaba_I": 21,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.498782699848487, 27.64941800016183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة السكيرات",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.124636899614439, 32.356683899795165]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الجيل الاول",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.98716860048593, 31.734929300313688]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الكرامة ( إبتدائية-ثانوية)",
+        "NAME_EN": "School",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.01071160014784, 32.459927899586276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الجحف",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.650439900294529, 31.362967399718414]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الخلود",
+        "NAME_EN": "Al kholod School",
+        "Morakaba_I": 10,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.733931799929913, 32.760740599914214]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة الوطن العربي للتعليم الأساسي",
+        "NAME_EN": "Al Watan Al Arabi School for Basic Education",
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.998433199865055, 32.79193290025102]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "درسة رأس التوته",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.099562300074179, 32.38184569967968]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة حي الصيد الإبتدائية",
+        "NAME_EN": null,
+        "Morakaba_I": 17,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.241816699637852, 31.654829700441326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "المعهد المتفوق للتعليم العالي",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.588358599557765, 31.210131999919135]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "مدرسة النهضة للبنات",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.455760500065917, 32.699768500326954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "نسيبة بنت كعب",
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.635602600166967, 32.422334399857945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": null,
+        "NAME_EN": null,
+        "Morakaba_I": 0,
+        "AMENITY": null
+      },
+      "geometry": null
+    }
+  ]
+}

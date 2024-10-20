@@ -1,0 +1,69 @@
+.card-container {
+    background-color: var(--primary-color);
+    display: flex;
+    min-height: 150px;
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.title-container {
+    width: 40%;
+    padding: 8px;
+}
+.title-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%  ;
+    font-size: 12px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 8px;
+    color: var(--text-color);
+}
+.info-container h2 {
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.info-container p {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.mini-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+
+}
+.mini-info-container svg {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+.mini-info-container button {
+    aspect-ratio: 155/46;
+    height: 35px;
+    margin-left: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    min-width: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .mini-info-container button {
+        width: 100px;
+    }
+  }

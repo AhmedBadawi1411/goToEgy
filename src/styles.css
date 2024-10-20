@@ -1,1 +1,368 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+  font-family: 'anubis';
+  src: url('/assets/fonts/Anubismythicalserif-lxdLy.otf');
+}
+@font-face {
+  font-family: 'oval';
+  src: url('/assets/fonts/OvalEgyptian-553x.otf');
+}
+
+.light-mode{
+    /* ! Dont Use This Variables */
+    --kdark-yellow: #DDA86F;
+    --kblue: #41ACEE;
+    --kblue-200: #3998d3;
+    --kblue-300: #014975;
+    --klight-yellow: #f5f1ec;
+    --kgray: #D9D9D9;
+
+    /** Use This Variables Insted of Above */
+
+    --primary-color: #DDA86F;
+    --primary-light: #EADDCF;
+    --accent-color: #41ACEE;
+    --text-color: white;
+    --grayed-out-bg: #D7D7D7;
+    --grayed-out-text: #B8B8B8;
+    --gray-button-bg: #D9D9D9;
+    --gray-button-text: #404040;
+    --kblue-200: #3998d3;
+    --kblue-300: #014975;
+
+    --kPadding-min : 6px;
+    --kPadding-mid : 10px;
+    --kPadding-reg : 16px;
+    --kPadding-extra001 : 29px;
+    --kPadding-extra002 : 43px;
+    --kPadding-mid-lg : 50px;
+    --kPadding-lg : 100px;
+
+    --kBorder-radius-min: 10px;
+    --kBorder-radius-reg: 20px;
+
+    --kFont-Bebas: "Bebas Neue", sans-serif;
+    --kFont-Jos: "Josefin Sans", sans-serif;
+    --kFont-anubis: "anubis", sans-serif;
+    --kFont-oval: "oval", sans-serif;
+
+    --kFS-title: 96px;
+    --kFS-subTitle: 32px;
+    --kFS-lg: 24px;
+    --kFS-reg: 18px;
+    --kFS-min: 16px;
+    --kFS-xm: 14px;
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    -webkit-user-select:none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+app-navbar{
+    position: sticky;
+    top:0;
+    z-index: 1001;
+}
+
+
+button{
+    cursor: pointer;
+    border-radius: var(--kBorder-radius-min);
+    padding: var(--kPadding-mid) var(--kPadding-extra001);
+    min-width: 100px;
+    border: none;
+    font-family: var(--kFont-Jos);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--klight-yellow);
+    transition: all 0.3s ease-in-out;
+}
+
+.locationBtn{
+  padding: 12px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--kblue-300);
+    color: white;
+}
+
+span{
+    color: inherit;
+}
+
+input[type="text"]{
+    padding: var(--kPadding-mid);
+    border: solid 1px var(--kgray);
+    background-color: aliceblue;
+    border-radius: var(--kBorder-radius-reg);
+}
+
+.footer{
+  margin: 0;
+}
+
+button.active{
+  background-color: #014975;
+  color: white;
+}
+
+*::-webkit-scrollbar {
+    width: 16px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #DFE9EB;
+  }
+
+  *::-webkit-scrollbar-track:hover {
+    background-color: #d4e0e2;
+  }
+
+  *::-webkit-scrollbar-track:active {
+    background-color: #d4e0e2;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: var(--kblue-300);
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: var(--kblue-200);
+  }
+
+  *::-webkit-scrollbar-thumb:active {
+    background-color: var(--kblue-200);
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@media (max-width: 1420px) {
+  .light-mode{
+    --kFS-title: 76px;
+    --kFS-subTitle: 24px;
+    --kFS-lg: 24px;
+    --kFS-reg: 14px;
+    --kFS-min: 13px;
+    --kFS-xm: 12px;
+  }
+
+  .filter-bar button{
+    font-size: var(--kFS-reg);
+  }
+
+  .filter-bar>div{
+    flex: 0.5;
+  }
+
+  button>span{
+    font-size: var(--kFS-reg);
+  }
+
+  button{
+    padding: 0;
+  }
+
+  span>button{
+    display: none;
+  }
+
+  .filter-parent{
+    display: none;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .light-mode{
+    --kFS-title: 76px;
+    --kFS-subTitle: 24px;
+    --kFS-lg: 24px;
+    --kFS-reg: 14px;
+    --kFS-min: 13px;
+    --kFS-xm: 12px;
+  }
+
+  .filter-bar button{
+    font-size: var(--kFS-min);
+  }
+
+  #filter-Btns-container>button{
+    display: none;
+  }
+
+
+  .filter-parent{
+    display: block;
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filterBtns-container.visable{
+    position:relative;
+    z-index: 1001;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 120px;
+    gap:0px;
+    height: 0px;
+  }
+  
+  .filterBtns-container>button{
+    flex: 1;
+  }
+  
+  
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .event-name-title{
+    font-size: 65px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+
+  .locations-list{
+    display: none;
+  }
+  
+  .filter-bar button:nth-child(1) span{
+    display: none;
+  }
+
+  button{
+    min-width: 0px;
+    padding: 8px 16px;
+    width: 100%;
+  }
+
+  .filter-bar{
+    flex-direction: column;
+    padding: 16px;
+    min-height: 120px;
+    gap:calc(var(--kPadding-reg)* 1.5);
+    
+  }
+
+  .light-mode{
+    --kPadding-lg:16px;
+    --kFS-title: 48px;
+    --kFS-subTitle: 14px;
+    --kFS-lg: 16px;
+    --kFS-reg: 14px;
+    --kFS-min: 14px;
+    --kFS-xm: 14px;
+  }
+
+  .events-subTitle{
+    padding-bottom: 24px;
+  }
+
+  #locationsBtnList{
+    display: block;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    justify-content: center;
+  }
+
+  .left-section{
+    padding: 16px;
+  }
+
+  .company-name,
+  .guide-name{
+    font-size: 28px;
+  }
+
+  .sale-for{
+    font-size: 16px;
+  }
+
+  .time{
+    font-size: 16px;
+  }
+
+  .event-name,
+  .tour-info{
+    font-size: 22px;
+  }
+
+.event-name-title{
+  font-size: 28px;
+}
+
+.imgs-group{
+  flex-direction: column;
+}
+
+.filterBtns-container{
+  top: -62px;
+  left: 16px;
+}
+
+.filterBtns-container.visable{
+  top: -72px;
+  left: 16px;
+}
+
+.locations-list{
+  grid-area: 1 / 1 / 1 / 1;
+  display: block;
+  z-index: 1001;
+  position: relative;
+  max-height: fit-content;
+  max-width: 250px;
+  height: fit-content;
+  display: flex;
+  gap: 16px;
+  top: -24px;
+  left: 16px;
+  border-radius: var(--kBorder-radius-min);
+}
+
+#map{
+  grid-area: 1 / 1 / -1 / -1;
+}
+}
+
+/* sm */
+@media (max-width: 640px) {
+  
+}
+
+/* xs */
+@media (max-width: 475px) {
+  
+}
