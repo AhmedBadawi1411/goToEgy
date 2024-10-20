@@ -177,7 +177,7 @@ p{
     flex-direction: row;
     gap: 16px;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .ticket-card>div:first-child{

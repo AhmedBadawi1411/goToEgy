@@ -7,14 +7,15 @@
     </ul>
 
     <div class="pagination">
-        <button (click)="setPage(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+        <button (click)="setPage(currentPage - 1)" [disabled]="currentPage === 1"><i
+                class="fa-solid fa-angle-left"></i></button>
 
         <ng-container *ngFor="let page of pageNumbers">
             <button (click)="setPage(page)" [class.active]="page === currentPage" [disabled]="page === currentPage">
                 {{ page }}
             </button>
         </ng-container>
-
-        <button (click)="setPage(currentPage + 1)" [disabled]="currentPage === totalPages">Next</button>
+        <button (click)="setPage(currentPage + 1)" [disabled]="currentPage === totalPages"><i
+                class="fa-solid fa-chevron-right"></i></button>
     </div>
 </div>

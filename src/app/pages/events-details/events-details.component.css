@@ -176,7 +176,7 @@ p{
     flex-direction: row;
     gap: 16px;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .ticket-card>div:first-child{
@@ -229,7 +229,7 @@ p{
 
 .sale-for{
     flex: 0.8 0.8 230px;
-    text-align: end;
+    text-align: flex-end;
     display: flex;
     flex-direction: row;
     justify-content: center;
