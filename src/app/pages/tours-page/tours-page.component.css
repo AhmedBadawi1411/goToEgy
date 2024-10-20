@@ -83,4 +83,10 @@ main {
         color: var(--kblue-300);
         font-weight: 500;
     }
+    .tour-cards-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 50px 5%;
+    }
   }
