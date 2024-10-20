@@ -1,9 +1,7 @@
-button {
-    min-width: auto;
-}
 .card-container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1.25fr 2fr 0.5fr;
+    grid-template-rows: 1fr;
     width: 100%;
     background-color: var(--primary-color);
     min-height: 350px;
@@ -15,7 +13,7 @@ button {
 .info-container {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    grid-column: 1/2;
     height: auto;
     padding: 20px;
     font-size: 14px;
@@ -27,9 +25,6 @@ button {
     font-weight: lighter;
     letter-spacing: 1px;
     font-size: 24px;
-}
-.info-container p {
-    min-height: 50%;
 }
 .info-bottom {
     display: flex;
@@ -70,7 +65,7 @@ button {
 /* -- */
 .slider-container {
     display: flex;
-    width: 58%;
+    width: 100%;
     padding: 10px;
 }
 .images-container{
@@ -83,6 +78,11 @@ button {
     height: 92%;
     border-radius: 15px; 
     transition: z-index 0.3s, transform 0.3s ease;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .one {
     background-color: #e0e0e0; 
@@ -109,7 +109,6 @@ button {
     justify-content: center;
     flex-direction: column;
     width: 5%;
-    /* overflow: hidden; */
 }
 .buttons-container button {
     height: 100px;
@@ -117,6 +116,7 @@ button {
     border: none;
     color: var(--primary-color);
     padding: 0;
+    margin: 5px 0;
     width: 100%;
     min-width: 100%;
 }
@@ -137,7 +137,7 @@ button {
 
 /* -- */
 .provider-container {
-    width: 10%;
+    width: 100%;
     padding: 15px;
 }
 .provider-container h2{
@@ -147,7 +147,18 @@ button {
     font-size: 20px;
     letter-spacing: 1px;
 }
-.provider-container svg{
+.tag-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.tag-container p {
+    width: 90%;
+    margin: 0;
+}
+.tag-container svg{
     filter: brightness(0) invert(1);
     width: 13px;
     height: 13px;
@@ -159,14 +170,6 @@ button {
     background-color: white;
     border-radius: 10px;
 }
-.tag-contaier {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 12px;
-    margin-top: 5px;
-}
-
 .images-container img {
     width: 100%;
     height: 100%;
@@ -178,35 +181,69 @@ button {
 
 .fade-out {
     opacity: 0;
-  }
+}
   
-  .fade-in {
+.fade-in {
     opacity: 1;
-  }
+}
   
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     /* For mobile phones: */
     .card-container {
         display: grid;
         grid-template-columns: 1.5fr 3.5fr;
         grid-template-rows: 1fr auto;
+        width: 100%;
+        padding: 0 10px;
+        min-width: 400px;
+        gap: 20px;
     }
     .slider-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 9fr 1fr;
         grid-column: 1/3;
         grid-row: 1/2;
         width: 100%;
+        padding: 0;
+    }
+    .images-container{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;
+    }
+    .buttons-container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+    .buttons-container button {
+        height: 100%;
+        width: 100px;
+        background-color: var(--primary-light);
+        border: none;
+        color: var(--primary-color);
+        padding: 0;
+        margin: 0 5px;
+        min-width: 100px;
     }
     .info-container{
         grid-column: 2/3;
         grid-row: 2/3;
         width: 100%;
+        padding: 20px 0;
     }
     .provider-container {
         grid-column: 1/2;
         grid-row: 2/3;
         width: 100%;
+        padding: 20px 0;
     }
     .action-container {
         display: flex;
     }
-  }
+}
