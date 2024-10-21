@@ -337,6 +337,9 @@ button.active{
   left: 16px;
 }
 
+.locationBtn{
+  gap: 4px;
+}
 .locations-list{
   grid-area: 1 / 1 / 1 / 1;
   display: block;
@@ -344,7 +347,7 @@ button.active{
   position: relative;
   max-height: fit-content;
   max-width: 250px;
-  min-width: 160px;
+  min-width: 140px;
   height: fit-content;
   display: flex;
   gap: 16px;

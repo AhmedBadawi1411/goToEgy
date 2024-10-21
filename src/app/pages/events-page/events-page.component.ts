@@ -48,6 +48,13 @@ export class EventsPageComponent {
       this.drawService.getShapes().subscribe(states => {
         this.states = states;
       });
+
+      const width = window.innerWidth;
+      width>768 ? this.sharedService.isLocationsShown$.subscribe(isShown => {
+        this.displayLocation = true; 
+      }):this.sharedService.isLocationsShown$.subscribe(isShown => {
+        this.displayLocation = isShown; 
+      });
     }
     
     
@@ -123,8 +130,12 @@ export class EventsPageComponent {
   }
 
   init(){
-    this.sharedService.isLocationsShown$.subscribe(isShown => {
-      this.displayLocation = true;});
+    const width = window.innerWidth;
+      width>768 ? this.sharedService.isLocationsShown$.subscribe(isShown => {
+        this.displayLocation = true; 
+      }):this.sharedService.isLocationsShown$.subscribe(isShown => {
+        this.displayLocation = isShown; 
+      });
   }
 
   private updateMap() {
