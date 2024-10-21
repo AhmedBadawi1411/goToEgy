@@ -2,7 +2,7 @@
     <div class="blur-background"></div>
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form #form="ngForm">
+            <form #form="ngForm" (ngSubmit)="onSignup(form)">
                 <h1>Create Account</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -37,6 +37,7 @@
                 </div>
 
                 <button type="submit" [disabled]="form.invalid">Sign Up</button>
+                <button class="hidden" type="button" id="login2" *ngIf="isMobile">Sign In</button>
             </form>
 
         </div>
@@ -68,7 +69,7 @@
                 <div class="toggle-panel toggle-right">
                     <h1>Hello, Friend!</h1>
                     <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
+                    <button class="hidden" type="button" id="register">Sign Up</button>
                 </div>
             </div>
         </div>
@@ -79,7 +80,7 @@
     <div class="blur-background"></div>
     <div class="container" id="container">
         <div class="form-container">
-            <form #form="ngForm">
+            <form #form="ngForm" (ngSubmit)="onSignup(form)">
                 <h1>Create Account</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -114,7 +115,7 @@
                 </div>
 
                 <button type="submit" [disabled]="form.invalid">Sign Up</button>
-                <button class="hidden" id="login2">Sign In</button>
+                <button class="hidden" type="button" id="login2">Sign In</button>
             </form>
         </div>
         <div class="form-container active">
@@ -127,12 +128,13 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email password</span>
-                <input type="email" id="email" name="email" ngModel required placeholder="Email" />
-                <input type="password" id="password" name="password" ngModel required placeholder="Password" />
+                <input type="email" id="email" name="email" [(ngModel)]="email" required placeholder="Email" />
+                <input type="password" id="password" name="password" [(ngModel)]="password" required
+                    placeholder="Password" />
                 <span *ngIf="msg" style="align-self: self-start; color: red;">{{msg}}</span>
                 <a href="#">Forget Your Password?</a>
                 <button type="submit">Sign In</button>
-                <button class="hidden" id="register2">Sign Up</button>
+                <button class="hidden" type="button" id="register2">Sign Up</button>
             </form>
         </div>
 
