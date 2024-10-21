@@ -3,14 +3,15 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import * as L from 'leaflet';
 import { Observable } from 'rxjs';
+import { PopupService } from './popup.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MarkerService {
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient, private popupService:PopupService) { }
 
-  capitals: string = '/assets/data/schools.geojson';
+  capitals: string = '/assets/data/locations.geojson';
   
   // makeCapitalMarkers(map: L.Map): void { 
   //   this.http.get(this.capitals).subscribe((res: any) => {
@@ -28,8 +29,8 @@ export class MarkerService {
     this.getGeoJSON().subscribe(geojson => {
       L.geoJSON(geojson, {
         onEachFeature: (feature, layer) => {
-          if (feature.properties && feature.properties.NAME) {
-            layer.bindPopup(`<strong>${feature.properties.NAME_EN}</strong><br>${feature.properties.NAME}`);
+          if (feature.properties) {
+            layer.bindPopup(this.popupService.makeCapitalPopup(feature.properties));
           }
         }
       }).addTo(map);
