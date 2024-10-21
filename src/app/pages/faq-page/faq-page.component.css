@@ -3,13 +3,15 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    background-color: var(--primary-light);
 }
 
 .faq-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     margin: 20px 0;
     position: relative;
+    font-family: var(--kFont-Bebas);
 }
 .faq-title::before, .faq-title::after {
     content: '';
@@ -26,7 +28,7 @@
     right: -120px;
 }
 .faq {
-    max-width: 800px;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -56,5 +58,8 @@
 @media (max-width: 768px) {
     .faq-title::before, .faq-title::after {
         display: none;
+    }
+    .faq {
+        width: 80%;
     }
 }

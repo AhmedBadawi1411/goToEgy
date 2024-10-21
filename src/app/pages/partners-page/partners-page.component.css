@@ -1,12 +1,13 @@
 .partner-section {
     background-color: #f4a261;
-    padding: 40px 20px;
-    text-align: center;
+    padding: 50px 20%;
+    text-align: left;
 }
 .partner-section h2 {
     margin: 0;
-    font-size: 24px;
+    font-size: 32px;
     color: #fff;
+    font-family: var(--kFont-Bebas);
 }
 .partner-section p {
     color: #fff;
@@ -21,12 +22,13 @@
 }
 .partners {
     background-color: #fff;
-    padding: 40px 20px;
-    text-align: center;
+    padding: 40px 10%;
+    text-align: left;
 }
 .partners h2 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 20px;
+    font-family: var(--kFont-Bebas);
 }
 .partners p {
     font-size: 16px;
@@ -46,15 +48,29 @@
     align-items: center;
     justify-content: center;
     font-size: 14px;
+    border-radius: 10px;
+}
+.second-section {
+    background-color: var(--primary-light);
+    padding: 30px 0;
 }
 .join-section {
-    background-color: #e0dcdc;
-    padding: 40px 20px;
+    padding: 40px 5%;
     display: flex;
     justify-content: space-between;
+    font-family: var(--kFont-Jos);
 }
 .join-section div {
-    width: 45%;
+    width: 48%;
+}
+.first-p {
+    padding: 40px 20px;
+}
+.second-p {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
 .join-section p {
     font-size: 16px;
@@ -63,27 +79,31 @@
     list-style: none;
     padding: 0;
 }
-.join-section ul li {
-    margin-bottom: 10px;
-}
 .form-section {
-    background-color: #000;
-    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     color: #fff;
 }
 .form-section form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 70%;
+    background-color: black;
+    padding: 40px 20px;
+    border-radius: 10px;
 }
 .form-section form input {
     width: 46%;
     margin-bottom: 20px;
     padding: 10px;
     border: none;
+    border-radius: 10px;
 }
 .form-section form input[type='email'] {
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: aliceblue;
 }
 .form-section form textarea {
@@ -92,6 +112,8 @@
     padding: 10px;
     border: none;
     height: 100px;
+    max-height: 250px;
+    border-radius: 10px;
 }
 .form-section form button {
     width: 20%;
@@ -101,11 +123,26 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    align-self: flex-end;
+    margin-left: auto;
 }
 
 @media (max-width:769px){
+    .form-section form {
+        width: 90%;
+    }
     .form-section form input {
+        width: 100%;
+    }
+    .join-section {
+        flex-direction: column;
+    }
+    .first-p {
+        width: 100%;
+    }
+    .second-p {
+        width: 100%;
+    }
+    .join-section div {
         width: 100%;
     }
 }
