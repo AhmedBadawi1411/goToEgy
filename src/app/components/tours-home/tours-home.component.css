@@ -27,7 +27,7 @@
     border-radius: 8px;
     width: 48%;
     margin-bottom: 50px;
-    height: 500px;
+    height: 600px;
     text-align: center;
     transition: transform 0.3s;
     cursor: pointer;
@@ -72,6 +72,9 @@
     justify-content: space-between;
   }
   .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-color: white;
     border-radius: 10px;
   }

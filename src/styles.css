@@ -353,6 +353,7 @@ button.active{
   border-radius: var(--kBorder-radius-min);
 }
 
+
 #map{
   grid-area: 1 / 1 / -1 / -1;
 }
