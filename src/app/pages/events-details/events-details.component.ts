@@ -11,6 +11,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class EventsDetailsComponent implements OnInit{
   eventTitle = '';
+  eventId = '';
   eventLocation = '';
   thumbnail! : string;
   img2! : string;
@@ -34,6 +35,7 @@ export class EventsDetailsComponent implements OnInit{
   constructor(private dataService:DataService, private route:ActivatedRoute){
     this.dataService.getData().subscribe(respponse =>{
       const id = this.route.snapshot.paramMap.get('id');
+      this.eventId=respponse[id!].id;
       this.eventTitle=respponse[id!].name;
       this.eventLocation=respponse[id!].location;
       this.thumbnail=respponse[id!].img1;

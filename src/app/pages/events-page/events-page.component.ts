@@ -29,7 +29,6 @@ L.Marker.prototype.options.icon = iconDefault;
 })
 export class EventsPageComponent {
   events:any
-
   constructor(
     private markerService: MarkerService, 
     private sharedService: SharedService, 
@@ -44,6 +43,11 @@ export class EventsPageComponent {
           eventId:`${ response[i].id - 1}`,
         }));
       });
+
+
+      this.drawService.getShapes().subscribe(states => {
+        this.states = states;
+      });
     }
     
     
@@ -52,7 +56,7 @@ export class EventsPageComponent {
   displayLocation: boolean = false;
 
   private map!: L.Map;
-  private states : any;
+  states : any;
 
   
   private initMap(): void {
@@ -136,5 +140,12 @@ export class EventsPageComponent {
     }
   }
 
-  
+  zoomToLocation(state: any): void {
+    const coordinates = state.geometry.coordinates;
+
+    const lat = coordinates[0][1];
+    const lng = coordinates[0][0];
+
+    this.map.flyTo([lat, lng], 9);
+  }
 }

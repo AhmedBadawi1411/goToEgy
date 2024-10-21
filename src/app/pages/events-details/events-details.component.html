@@ -72,7 +72,7 @@
                 </div>
                 <div>
                     <button type="button" id="booking" [disabled]="!isAvailable"
-                        [routerLink]="['/payment']"><span>Booking Now</span></button>
+                        [routerLink]="['/payment',eventId]"><span>Booking Now</span></button>
                     <span class="sale-for" [hidden]="!isSale" *ngIf="isSale">SALE FOR<span class="time">{{disHours}} :
                             {{disMins}} :
                             {{disSec}}</span> </span>

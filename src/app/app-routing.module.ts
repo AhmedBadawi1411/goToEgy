@@ -35,7 +35,7 @@ const routes: Routes = [
   {path: 'support', component:SupportPageComponent},
   {path: 'terms', component:TermsPageComponent},
   {path: 'testimonials', component:TestimonialsPageComponent},
-  {path: 'payment', component:PaymentComponent, canActivate:[authGuard]},
+  {path: 'payment/:id', component:PaymentComponent, canActivate:[authGuard]},
 ];
 
 @NgModule({

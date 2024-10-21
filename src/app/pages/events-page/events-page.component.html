@@ -20,17 +20,10 @@
         <div class="maps-container" *ngIf="displayMap">
             <div class="map" id="map"></div>
             <div class="locations-list" *ngIf="displayLocation">
-                <button type="button" class="locationBtn">
+                <button *ngFor="let state of states?.features" type="button" class="locationBtn"
+                    (click)="zoomToLocation(state)">
                     <i class="fa-solid fa-location-dot"></i>
-                    <span> CAIRO </span>
-                </button>
-                <button type="button" class="locationBtn">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span> CAIRO </span>
-                </button>
-                <button type="button" class="locationBtn">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span> CAIRO </span>
+                    <span> <span>{{ state.properties.name || 'Unnamed Location' }}</span> </span>
                 </button>
             </div>
         </div>
