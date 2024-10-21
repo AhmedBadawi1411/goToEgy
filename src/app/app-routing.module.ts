@@ -16,6 +16,7 @@ import { TestimonialsPageComponent } from './pages/testimonials-page/testimonial
 import { AuthPageComponent } from './pages/auth-page/auth-page.component';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { authGuard } from './guards/auth.guard';
+import { SuccessPaymentComponent } from './page/success-payment/success-payment.component';
 
 
 
@@ -35,7 +36,8 @@ const routes: Routes = [
   {path: 'support', component:SupportPageComponent},
   {path: 'terms', component:TermsPageComponent},
   {path: 'testimonials', component:TestimonialsPageComponent},
-  {path: 'payment', component:PaymentComponent, canActivate:[authGuard]},
+  {path: 'payment/:id', component:PaymentComponent, canActivate:[authGuard]},
+  {path: 'success', component:SuccessPaymentComponent},
 ];
 
 @NgModule({

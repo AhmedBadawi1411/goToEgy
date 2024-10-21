@@ -36,6 +36,7 @@ import { EventsHomeComponent } from './components/events-home/events-home.compon
 import { ToursHomeComponent } from './components/tours-home/tours-home.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { BrandComponent } from './components/brand/brand.component';
+import { SuccessPaymentComponent } from './page/success-payment/success-payment.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { BrandComponent } from './components/brand/brand.component';
     ToursHomeComponent,
     SubscribeComponent,
     BrandComponent,
+    SuccessPaymentComponent,
   ],
   imports: [
     BrowserModule,
