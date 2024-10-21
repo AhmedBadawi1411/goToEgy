@@ -1,0 +1,19 @@
+.tours-stats {
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    color: white;
+    font-family: var(--kFont-Bebas);
+    font-weight: lighter;
+    font-size: var(--kFS-lg);
+    padding-top: 10px;
+}
+.tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

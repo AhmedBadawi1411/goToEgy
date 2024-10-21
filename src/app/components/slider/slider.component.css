@@ -1,35 +1,62 @@
 .slider {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-image:url(/assets/imgs/Pyramids.jpg);
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image:url(/assets/imgs/Pyramids.jpg);
+}
+.slide {
+  height: 90vh;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
+.text-overlay h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.text-overlay button {
+  background-color: #004488;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.text-overlay button a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-overlay h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
   }
-  .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
+  .text-overlay h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   .text-overlay {
     position: absolute;
     top: 50%;
     left: 10%;
+    right: 10%;
     transform: translateY(-50%);
     color: white;
   }
-  .text-overlay h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-  }
   .text-overlay button {
-    background-color: #004488;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
   }
-  .text-overlay button a{
-    color: aliceblue;
-    text-decoration: none;
-  }
-  
+}
