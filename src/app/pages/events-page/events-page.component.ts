@@ -3,6 +3,25 @@ import { SharedService } from 'src/app/services/shared.service';
 import * as L from 'leaflet';
 import { MarkerService } from 'src/app/services/marker.service';
 import { DataService } from 'src/app/services/data.service';
+import { DrawShapeService } from 'src/app/services/draw-shape.service';
+
+
+const iconRetinaUrl = '/assets/marker-icon-2x.png';
+const iconUrl = '/assets/marker-icon.png';
+const shadowUrl = '/assets/marker-shadow.png';
+const iconDefault = L.icon({
+  iconRetinaUrl,
+  iconUrl,
+  shadowUrl,
+  iconSize: [15, 25],
+  iconAnchor: [10, 25],
+  popupAnchor: [1, -34],
+  tooltipAnchor: [16, -28],
+  shadowSize: [25, 25]
+});
+L.Marker.prototype.options.icon = iconDefault;
+
+
 @Component({
   selector: 'app-events-page',
   templateUrl: './events-page.component.html',
@@ -14,7 +33,8 @@ export class EventsPageComponent {
   constructor(
     private markerService: MarkerService, 
     private sharedService: SharedService, 
-    private dataService:DataService) {
+    private dataService:DataService,
+  private drawService:DrawShapeService) {
       this.dataService.getData().subscribe(response => {
         this.events = Array.from({ length: response.length }, (_, i) => ({
           title: `${ response[i].name}`,
@@ -32,8 +52,9 @@ export class EventsPageComponent {
   displayLocation: boolean = false;
 
   private map!: L.Map;
+  private states : any;
 
-
+  
   private initMap(): void {
     this.map = L.map('map', {
       center: [26.595902, 31.593445],
@@ -48,6 +69,20 @@ export class EventsPageComponent {
     tiles.addTo(this.map);
   }
 
+  private initStatesLayer() {
+    const stateLayer = L.geoJSON(this.states, {
+      style: (feature) => ({
+        weight: 6,
+        opacity: 1,
+        color: '#E7494A',
+        fillOpacity: 0.8,
+        fillColor: '#6DB65B'
+      })
+    });
+
+    this.map.addLayer(stateLayer);
+  }
+
   ngAfterViewInit(): void {
     this.initMap();
     this.markerService.makeCapitalMarkers(this.map);
@@ -56,12 +91,21 @@ export class EventsPageComponent {
       setTimeout(()=>{
         this.updateMap();
         this.markerService.makeCapitalMarkers(this.map);
+        this.drawService.getShapes().subscribe(states => {
+          this.states = states;
+          this.initStatesLayer();
+        });
       }, 100)
     });
     this.sharedService.isLocationsShown$.subscribe(isShown => {
       this.displayLocation = isShown; 
     });
     this.init();
+
+    this.drawService.getShapes().subscribe(states => {
+      this.states = states;
+      this.initStatesLayer();
+    });
   }
 
   @HostListener('window:resize', ['$event'])
@@ -91,4 +135,6 @@ export class EventsPageComponent {
       }
     }
   }
+
+  
 }

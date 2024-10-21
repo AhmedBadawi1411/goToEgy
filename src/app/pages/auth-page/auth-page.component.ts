@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
 
@@ -27,6 +28,34 @@ export class AuthPageComponent implements OnInit, AfterViewInit {
   //     console.error('Sign up error:', error);
   //   }
   // }
+
+  onSignup(form: NgForm) {
+    if (form.valid) {
+      const signUpData = {
+        fullName: this.name,
+        email: this.email,
+        password: this.password,
+        isAdmin:false,
+        rating:0,
+        UId:"ac7d8664-e15c-4b19-8cd8-0ffd0f3b6590" + Math.random()
+      };
+  
+      this.authService.signUp(signUpData).subscribe({
+        next: (response) => {
+          console.log('Sign Up Successful:', response);
+          this.authService.setIsLoggedIn(true);
+          localStorage.setItem('userToken', response.UId);
+          this.router.navigate(['/home']);
+        },
+        error: (error) => {
+          console.error('Error during sign-up:', error);
+        },
+        complete: () => {
+          console.log('Sign Up process completed');
+        }
+      });
+    }
+  }
 
   onSubmit() {
     this.authService.loginWithEmail(this.email).subscribe({
